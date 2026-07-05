@@ -1,0 +1,142 @@
+{
+  "cash_balance": 72243.14999999998,
+  "positions": {
+    "GOOGL": {
+      "quantity": 32,
+      "avg_price": 328.48
+    },
+    "MSFT": {
+      "quantity": 18,
+      "avg_price": 479.2
+    },
+    "TSLA": {
+      "quantity": 18,
+      "avg_price": 444.99
+    },
+    "BABA": {
+      "quantity": 8,
+      "avg_price": 160.38625
+    }
+  },
+  "transactions": [
+    {
+      "timestamp": "2026-01-09T09:02:54.041945",
+      "symbol": "AAPL",
+      "action": "BUY",
+      "quantity": 38,
+      "price": 259.06,
+      "total_value": 9844.28,
+      "cash_balance_after": 90155.72
+    },
+    {
+      "timestamp": "2026-01-09T09:03:08.496838",
+      "symbol": "AAPL",
+      "action": "SELL",
+      "quantity": 38,
+      "price": 259.06,
+      "total_value": 9844.28,
+      "cost_basis": 9844.28,
+      "profit_loss": 0.0,
+      "profit_loss_pct": 0.0,
+      "cash_balance_after": 100000.0
+    },
+    {
+      "timestamp": "2026-01-10T09:13:46.475785",
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "quantity": 30,
+      "price": 328.48,
+      "total_value": 9854.400000000001,
+      "cash_balance_after": 90145.6
+    },
+    {
+      "timestamp": "2026-01-10T09:14:45.012002",
+      "symbol": "MSFT",
+      "action": "BUY",
+      "quantity": 18,
+      "price": 479.2,
+      "total_value": 8625.6,
+      "cash_balance_after": 81520.0
+    },
+    {
+      "timestamp": "2026-01-10T09:15:48.269728",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 18,
+      "price": 444.99,
+      "total_value": 8009.82,
+      "cash_balance_after": 73510.18
+    },
+    {
+      "timestamp": "2026-01-10T09:43:11.655099",
+      "symbol": "BABA",
+      "action": "BUY",
+      "quantity": 48,
+      "price": 150.95,
+      "total_value": 7245.599999999999,
+      "cash_balance_after": 66264.57999999999
+    },
+    {
+      "timestamp": "2026-01-12T05:59:51.560968",
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "quantity": 2,
+      "price": 328.48,
+      "total_value": 656.96,
+      "cash_balance_after": 65607.61999999998
+    },
+    {
+      "timestamp": "2026-01-13T16:15:56.065054",
+      "symbol": "AAPL",
+      "action": "BUY",
+      "quantity": 3,
+      "price": 260.21,
+      "total_value": 780.6299999999999,
+      "cash_balance_after": 64826.98999999998
+    },
+    {
+      "timestamp": "2026-01-13T20:31:35.975064",
+      "symbol": "AAPL",
+      "action": "SELL",
+      "quantity": 3,
+      "price": 259.59,
+      "total_value": 778.77,
+      "cost_basis": 780.6299999999999,
+      "profit_loss": -1.8599999999999,
+      "profit_loss_pct": -0.23826909035008906,
+      "cash_balance_after": 65605.75999999998
+    },
+    {
+      "timestamp": "2026-02-10T20:55:07.855259",
+      "symbol": "BABA",
+      "action": "SELL",
+      "quantity": 48,
+      "price": 165.01,
+      "total_value": 7920.48,
+      "cost_basis": 7245.599999999999,
+      "profit_loss": 674.8800000000001,
+      "profit_loss_pct": 9.314342497515735,
+      "cash_balance_after": 73526.23999999998
+    },
+    {
+      "timestamp": "2026-02-10T21:01:13.011268",
+      "symbol": "BABA",
+      "action": "BUY",
+      "quantity": 7,
+      "price": 165.38,
+      "total_value": 1157.6599999999999,
+      "cash_balance_after": 72368.57999999997
+    },
+    {
+      "timestamp": "2026-03-27T15:00:04.070553",
+      "symbol": "BABA",
+      "action": "BUY",
+      "quantity": 1,
+      "price": 125.43,
+      "total_value": 125.43,
+      "cash_balance_after": 72243.14999999998
+    }
+  ],
+  "total_invested": 0,
+  "last_updated": "2026-03-27T15:00:04.073942"
+}
