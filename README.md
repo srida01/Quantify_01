@@ -41,36 +41,7 @@ For a step-by-step walkthrough of every file and data flow, see [WORKFLOW.md](WO
 
 ## Architecture
 
-```mermaid
-flowchart TB
-    subgraph frontend [Streamlit Frontend]
-        App[app.py]
-        P1[01_Portfolio.py]
-        P2[02_Strategy_Analysis.py]
-        P3[03_Dynamic_Merton_Backtest.py]
-    end
-    subgraph backend [Flask Backend]
-        API[api_server.py]
-        WSPrice[websocket/price_stream.py]
-        WSBacktest[websocket/video_stream.py]
-    end
-    subgraph quant [Quant Engine]
-        HMM[HMMOracle.py]
-        Merton[MertonOptimizer.py]
-        Runner[merton_backtest_runner.py]
-        Dash[build_dashboard.py]
-        Replay[build_cinematic_replay.py]
-    end
-    P3 -->|Socket.IO start_backtest_stream| API
-    P2 -->|REST /api/analyze| API
-    P1 -->|REST /api/portfolio| API
-    API --> WSBacktest --> Runner
-    Runner --> HMM
-    Runner --> Merton
-    Runner --> Dash
-    Runner --> Replay
-    Merton --> CSV[presentation_data.csv]
-```
+![Architecture](images/architecture.jpeg)
 
 
 
